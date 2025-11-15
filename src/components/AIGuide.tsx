@@ -118,7 +118,7 @@ export default function AIGuide() {
               <div className="p-3 border-b border-gray-200">
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 rounded-full overflow-hidden bg-white border">
-                    <img src="/src/assets/charater.jpg" className="w-full h-full object-cover" />
+                    <img src="/charater.jpg" className="w-full h-full object-cover" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-sm">AI 안전 가이드</h3>
@@ -147,7 +147,7 @@ export default function AIGuide() {
                         {message.role === 'user' ? (
                           <User className="w-4 h-4 text-white" />
                         ) : (
-                          <img src="/src/assets/charater.jpg" className="w-full h-full object-cover" />
+                          <img src="/charater.jpg" className="w-full h-full object-cover" />
                         )}
                       </div>
 
