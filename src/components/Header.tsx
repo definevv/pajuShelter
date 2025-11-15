@@ -9,7 +9,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => onNavigate('home')}>
-            <img src="/src/assets/logo.jpg" alt="파주시 로고" className="h-8" />
+            <img src="/logo.jpg" alt="파주시 로고" className="h-8" />
           </div>
 
           <nav className="flex items-center space-x-8">

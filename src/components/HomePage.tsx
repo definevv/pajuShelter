@@ -79,7 +79,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         className="relative h-[400px] bg-cover bg-center flex items-center justify-center"
         style={{
           backgroundImage:
-            'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/src/assets/image.png)',
+            'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/image.png)',
         }}
       >
         <div className="text-center text-white px-4 max-w-4xl">
